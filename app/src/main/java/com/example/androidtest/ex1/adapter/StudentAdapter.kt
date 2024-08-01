@@ -31,6 +31,7 @@ class StudentAdapter(private val student: List<Student>) :
                 tvName.text = "Name: " + item.name
                 tvAge.text = "Age: " + item.age.toString()
                 tvAddress.text = "Address: " + item.address
+                tvGender.text = "Gender: " + item.gender
             }
         }
     }

@@ -36,9 +36,9 @@ class RoomDBActivity : AppCompatActivity() {
 
     private suspend fun addData() {
         val studentDao = database.studentDao()
-        studentDao.insert(Student(name = "John Doe1", age = 20, address = "1233 Street"))
-        studentDao.insert(Student(name = "John Doe2", age = 20, address = "1253 Street"))
-        studentDao.insert(Student(name = "John Doe3", age = 20, address = "1263 Street"))
-        studentDao.insert(Student(name = "John Doe4", age = 20, address = "1273 Street"))
+        studentDao.insert(Student(name = "John 1", age = 20, address = "1233 Street", gender = "Male"))
+        studentDao.insert(Student(name = "John 2", age = 20, address = "1253 Street", gender = "Male"))
+        studentDao.insert(Student(name = "Doe 3", age = 20, address = "1263 Street", gender = "Male"))
+        studentDao.insert(Student(name = "John 4", age = 20, address = "1273 Street", gender = "Male"))
     }
 }
