@@ -25,4 +25,14 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnEx1" />
+
+    <Button
+        android:id="@+id/btnEx4"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:text="Exercise 4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEx2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
