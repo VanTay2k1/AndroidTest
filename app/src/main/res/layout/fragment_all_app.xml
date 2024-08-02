@@ -4,25 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ex2.fragment.AllAppFragment">
 
-    <Button
-        android:id="@+id/btnEx1"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
-        android:text="Exercise 1"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rlAllApp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnEx2"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="5dp"
-        android:text="Exercise 2"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnEx1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
