@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.androidtest.databinding.ActivityMainBinding
 import com.example.androidtest.ex1.RoomDBActivity
 import com.example.androidtest.ex2.LauncherAppActivity
+import com.example.androidtest.ex3.AiIntegrationActivity
 import com.example.androidtest.ex4.RecordActivity
 
 class MainActivity : AppCompatActivity() {
@@ -26,6 +27,9 @@ class MainActivity : AppCompatActivity() {
             }
             btnEx2.setOnClickListener {
                 startActivity(Intent(this@MainActivity, LauncherAppActivity::class.java))
+            }
+            btnEx3.setOnClickListener {
+                startActivity(Intent(this@MainActivity, AiIntegrationActivity::class.java))
             }
             btnEx4.setOnClickListener {
                 startActivity(Intent(this@MainActivity, RecordActivity::class.java))

@@ -10,6 +10,7 @@
         android:id="@+id/btnEx1"
         android:layout_width="150dp"
         android:layout_height="60dp"
+        android:layout_marginBottom="70dp"
         android:text="Exercise 1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -27,6 +28,17 @@
         app:layout_constraintTop_toBottomOf="@id/btnEx1" />
 
     <Button
+        android:id="@+id/btnEx3"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:text="Exercise 3"
+        app:layout_constraintBottom_toTopOf="@id/btnEx4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEx2" />
+
+    <Button
         android:id="@+id/btnEx4"
         android:layout_width="150dp"
         android:layout_height="60dp"
@@ -34,5 +46,5 @@
         android:text="Exercise 4"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnEx2" />
+        app:layout_constraintTop_toBottomOf="@id/btnEx3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
